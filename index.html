@@ -1,0 +1,267 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Vijay Vanapalli - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.card {
+				border: 1px solid #ccc;
+				border-radius: 5px;
+				box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+				margin: 1em 0;
+				padding: 1em;
+				background-color: #d3d3d3; /* grey background color */
+				color: black; /* black text color */
+				text-align: left; /* align text to the left */
+			}
+			.card h3, .card p strong, .card ul li, .card p {
+				color: black; /* black text color */
+				margin-top: 0;
+			}
+			.card img {
+				width: 100%; /* images in projects and about sections will fill the card */
+				height: auto; /* maintain aspect ratio */
+				border-radius: 5px;
+				margin-bottom: 1em;
+			}
+			.projects-card h3, .work-card h3, .about-card h3 {
+				color: black; /* black header color */
+			}
+			.about-card ul li strong {
+				color: black; /* black text color */
+			}
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+			.about-section p {
+				margin: 0;
+				padding: 0.5em 0;
+			}
+			.about-card-link {
+				color: black;
+				text-decoration: underline;
+			}
+			.education-card img {
+				width: 150px; /* fixed width for images in education section */
+				height: auto; /* maintain aspect ratio */
+				margin-right: 1em; /* some margin to the right */
+				float: left; /* float images to the left */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<header id="header">
+				<div class="logo">
+					<span class="icon fa-user"></span>
+				</div>
+				<div class="content">
+					<div class="inner">
+						<h1>Vijay Vanapalli</h1>
+						<p>Graduate Research Assistant at The George Washington University<br>
+						Former Computer Vision Engineer at 3Frames Software Labs<br>
+						Pursuing Master of Science in Computer Science, expected graduation in December 2025</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+			<div id="main">
+				<article id="intro">
+					<h2 class="major">Intro</h2>
+					<span class="image main"><img src="images/image1.png" alt="Introduction Image" /></span>
+					<p>Hello! I am Vijay Vanapalli, a dedicated computer science professional with a passion for developing innovative solutions.</p>
+					<p>Currently, I am pursuing my Master's degree in Computer Science at The George Washington University and working as a Graduate Research Assistant.</p>
+					<p>Previously, I worked as a Computer Vision Engineer at 3Frames Software Labs.</p>
+				</article>
+				<article id="work">
+					<h2 class="major">Work Experience</h2>
+					
+					<div class="card work-card clearfix">
+						<img src="images/gw.png" alt="George Washington University" style="width: 150px; float: left; margin-right: 1em;" />
+						<h3>George Washington University</h3>
+						<p><strong>Graduate Research Assistant</strong> (February 2024 - Present)</p>
+						<ul>
+							<li>Collected data for 50 objects across 10 categories, 10 sessions, totaling 500 videos using Color DVS346 Camera.</li>
+							<li>Applied Spiking Neural Networks for Continual Learning on Event Camera Dataset</li>
+						</ul>
+					</div>
+					
+					<div class="card work-card clearfix">
+						<img src="images/3frames.png" alt="3Frames Software Labs" style="width: 150px; float: left; margin-right: 1em;" />
+						<h3>3Frames Software Labs</h3>
+						<p><strong>Computer Vision Engineer</strong> (April 2020 - April 2023)</p>
+						<ul>
+							<li>Processed and managed data from multiple CCTV streams in real-time, improving monitoring efficiency.</li>
+							<li>Configured Server-Client data interpretation using Apache ActiveMQ, gRPC, and Plotly.py</li>
+						</ul>
+						<p><strong>Software Intern</strong> (April 2020 - April 2023)</p>
+						<ul>
+							<li>Implemented Snowboy Hotword Detection on a Raspberry Pi for Android app recognition</li>
+							<li>Deployed NLP offline on Android Applications using OpenNLP, improving app responsiveness.</li>
+							<li>Conducted unit testing on modules within a framework and server integration</li>
+						</ul>
+					</div>
+
+					<div class="card work-card clearfix">
+						<img src="images/sjsu.png" alt="San Jose State University" style="width: 150px; float: left; margin-right: 1em;" />
+						<h3>San Jose State University</h3>
+						<p><strong>Instructional Student Assistant</strong> (May 2016 - May 2018, San Jose, CA, USA)</p>
+						<ul>
+							<li>Led instruction in EE 30 course, focusing on programming microcontrollers and hardware-software integration.</li>
+							<li>Designed course modules for beginners in C++ and utilized MSP430 for keystone projects.</li>
+						</ul>
+					</div>
+				</article>
+				<article id="projects">
+					<h2 class="major">Projects</h2>
+					
+					<div class="card projects-card">
+						<a href="project1.html"><img src="images/project1.png" alt="Project 1 Image" /></a>
+						<h3>iSentinel</h3>
+						<ul>
+							<li>Trained Anomaly detection models, extracting I3D features over frames from multiple video streams.</li>
+							<li>Extended UI accessibility and compatibility by translating to Plotly.js.</li>
+							<li>Implemented MediaPipe Face Detection to classify emotions and behaviors.</li>
+							<li>Utilized gRPC and ActiveMQ for server-client data interpretation.</li>
+							<li>Integrated Raspberry Pi for image collection and preprocessing.</li>
+						</ul>
+					</div>
+					
+					<div class="card projects-card">
+						<a href="project2.html"><img src="images/project2.png" alt="Project 2 Image" /></a>
+						<h3>Garment Landmark Identification with DeepFashion2</h3>
+						<ul>
+							<li>Implemented Transfer Learning to identify key landmark positions for 5 different garment classes.</li>
+							<li>Procured and formatted a proprietary dataset in DeepFashion2 format.</li>
+						</ul>
+					</div>
+					
+					<div class="card projects-card">
+						<a href="project3.html"><img src="images/project3.png" alt="Project 3 Image" /></a>
+						<h3>Image Matching and 3D Reconstruction</h3>
+						<ul>
+							<li>Focused on creating 3D maps from image collections, evaluating models based on mean Average Accuracy (mAA) for camera center positioning.</li>
+							<li>Experimented with various embedding techniques, including ResNet50 and Hugging Face’s Transformers.</li>
+							<li>Utilized traditional keypoint detection methods (SIFT, ORB, AKAZE) and modern techniques (ALIKED, SuperPoint) for feature extraction.</li>
+							<li>Implemented COLMAP for 3D reconstruction and addressed challenges with keypoint matching and image reconstruction.</li>
+						</ul>
+					</div>
+					
+					<div class="card projects-card">
+						<a href="project4.html"><img src="images/project4.png" alt="Project 4 Image" /></a>
+						<h3>Deep Learning for Chest X-Ray Medical Diagnosis of Lung Cancer</h3>
+						<ul>
+							<li>Utilized the NIH Clinical Center dataset with 100,000 annotated images, addressing class imbalance.</li>
+							<li>Compared DenseNet-121, VGG16, ResNet50, and Vision Transformer for multi-label classification.</li>
+							<li>Employed image preprocessing techniques and implemented a custom ChestXRayDataset class.</li>
+							<li>Evaluated models based on AUC, precision, recall, and F1-score to identify the most effective architecture.</li>
+						</ul>
+					</div>
+					
+					<div class="card projects-card">
+						<a href="project5.html"><img src="images/project5.png" alt="Project 5 Image" /></a>
+						<h3>OCR Projects</h3>
+						<ul>
+							<li>Deployed EasyOCR for tabulating PDFs into structured data.</li>
+							<li>Designed a module using Character-Region Awareness for Text detection (CRAFT).</li>
+							<li>Implemented a custom license plate detector using YOLOv7.</li>
+						</ul>
+					</div>
+					
+					<div class="card projects-card">
+						<a href="project6.html"><img src="images/image.jpg" alt="Project 6 Image" /></a>
+						<h3>Acoustic Beamforming with Voice Activity Detection Using a Microphone Array</h3>
+						<ul>
+							<li>Engineered data acquisition processes established interfacing between the NAU85L40 and NuTiny.</li>
+							<li>Integrated a VAD module with the Delay Sum Algorithm to steer the beamformer.</li>
+							<li>Created an LED interface to map beam steering capability in real-time.</li>
+						</ul>
+					</div>
+				</article>
+				<article id="about">
+					<h2 class="major">About</h2>
+					
+					<div class="card about-card clearfix education-card">
+						<h3>Education</h3>
+						<img src="images/gw.png" alt="George Washington University" />
+						<p><strong>The George Washington University, School of Engineering & Applied Science</strong> - Master of Science in Computer Science (Expected December 2025)</p>
+						<img src="images/sjsu.png" alt="San Jose State University" />
+						<p><strong>San Jose State University</strong> - Bachelor of Science in Electrical Engineering (December 2018)</p>
+					</div>
+					
+					<div class="card about-card clearfix">
+						<h3>Technical Skills</h3>
+						<ul>
+							<li><strong>Languages:</strong> C/C++, Python, Rust, Java</li>
+							<li><strong>Libraries:</strong> TensorFlow, PyTorch, OpenCV, NumPy, Scikit-learn, MediaPipe</li>
+							<li><strong>Developer Tools:</strong> VSCode, Git, IntelliJ, Eclipse</li>
+						</ul>
+					</div>
+
+					<div class="card about-card clearfix">
+						<h3>Research Interests</h3>
+						<img src="images/lab.jpg" alt="Research Team" />
+						<p>Working on creating a dataset with a Color DAVIS346 camera, working on Neuromorphic Vision for Continual Learning under Professor Gina Adam <a href="https://www.ginaadam.com" class="about-card-link">ADAM Lab</a>.</p>
+					</div>
+
+					<div class="card about-card clearfix">
+						<h3>IEEE-HKN Involvement - 2019</h3>
+						<img src="images/ieee-hkn.jpg" alt="IEEE-HKN" />
+						<p>President - Arranged workshops and mock interviews with various companies at SJSU</p>
+					</div>
+				</article>
+				<article id="contact">
+					<h2 class="major">Contact</h2>
+					<form method="post" action="send_message.php">
+						<div class="fields">
+							<div class="field half">
+								<label for="name">Name</label>
+								<input type="text" name="name" id="name" />
+							</div>
+							<div class="field half">
+								<label for="email">Email</label>
+								<input type="email" name="email" id="email" />
+							</div>
+							<div class="field">
+								<label for="message">Message</label>
+								<textarea name="message" id="message" rows="4"></textarea>
+							</div>
+						</div>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" class="primary" /></li>
+							<li><input type="reset" value="Reset" /></li>
+						</ul>
+					</form>
+					<ul class="icons">
+						<li><a href="https://twitter.com/yourprofile" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://facebook.com/yourprofile" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://instagram.com/yourprofile" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/yourprofile" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</article>
+			</div>
+			<footer id="footer">
+				<p class="copyright">&copy; Vijay Vanapalli. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+			</footer>
+		</div>
+		<div id="bg"></div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
